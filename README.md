@@ -1,16 +1,16 @@
-![PROGRAMADOR JAVA](https://raw.githubusercontent.com/gcoronelc/JAVA-OO-2020-6/master/img/javaoo.png)
+![FUNDAMENTOS DE PROGRAMACIÓN CON JAVA](https://raw.githubusercontent.com/gcoronelc/JAVA-FUND-001/main/IMG/fdp.png)
 
 # PROGRAMADOR JAVA
 
-- Lugar: SistemasUNI
-- Horario: SABADOS DE 08 a 14 Horas
-- Inicio: 08-AGO-2020
+- Lugar: CEPS-UNI
+- Horario: Martes y Jueves de 19 - 22 Horas
+- Inicio: 12.NOV.2020
 - Duración: 24 Horas
-- Dirección: https://goo.gl/maps/98vwAt9NZMU2
-- Youtube: https://n9.cl/gcoronelc-javaoo
+- Dirección: https://goo.gl/maps/6JRfgrEPkLYR4AVn6
+- Youtube: https://n9.cl/gcoronelc-fdp-java
 - Página: http://gcoronelc.blogspot.com/p/java.html
 - Código fuente: https://goo.gl/GRaOQg
-- Grupo de WS: https://chat.whatsapp.com/H6BBebNDZHEAqAk6gTU5ZS
+- WS del Curso: https://chat.whatsapp.com/JPzeGd3tIkpBpS2kRDr61n
 
 
 # DOCENTE
@@ -19,14 +19,16 @@
 - Blog: www.desarrollasoftware.com
 - Correo para el curso: egcc.uni@gmail.com
 - Canal Youtube: https://www.youtube.com/DesarrollaSoftware
-- UDEMY: https://github.com/gcoronelc/UDEMY
+- Cursos Virtuales: https://gcoronelc.github.io/
 - Facebook 1: https://www.facebook.com/groups/universidadjava/
 - Facebook 2: https://www.facebook.com/groups/desarrollasoftware/
 - Facebook 3: https://www.facebook.com/groups/bolsa.sistemas/
+- Grupo de WS de Java: https://chat.whatsapp.com/H6BBebNDZHEAqAk6gTU5ZS
 
 
 # YUTUBE
 
+- JAVA FUNDAMENTOS: https://n9.cl/gcoronelc-fdp-java
 - JAVA OO: https://bit.ly/2FCowSU
 - JDBC: https://bit.ly/2TaHisH
 - PL/SQL: https://bit.ly/2uvE9cF
@@ -58,7 +60,7 @@
 
 ## CUPONES UDEMY
 
-- Enlace: https://github.com/gcoronelc/UDEMY
+- Enlace: https://gcoronelc.github.io/
 
 ## ORACLE PL/SQL
 
