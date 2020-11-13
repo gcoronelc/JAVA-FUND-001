@@ -15,7 +15,7 @@
 
 # DOCENTE
 
-- Docente: Eric Gustavo Coronel Castillo
+- Docente: ERIC GUSTAVO CORONEL CASTILLO
 - Blog: www.desarrollasoftware.com
 - Correo para el curso: egcc.uni@gmail.com
 - Canal Youtube: https://www.youtube.com/DesarrollaSoftware
