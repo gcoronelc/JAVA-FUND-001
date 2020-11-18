@@ -1,0 +1,15 @@
+Proceso Programa02
+	//Variables
+	Definir num1, num2, sum, prod Como Real;
+	//Lectura de datos
+	Escribir "Ingrese el primer numero:";
+	Leer num1;
+	Escribir "Ingrese el segundo numero:";
+	Leer num2;
+	//Procesamiento
+	sum <- num1 + num2;
+	prod <- num1 * num2;
+	//Resultado
+	Escribir "La suma es: ", sum;
+	Escribir "El producto es: ", prod;
+FinProceso

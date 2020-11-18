@@ -1,0 +1,8 @@
+Proceso Ejemplo05
+	Definir n Como Entero;
+	n <- 10;
+	Mientras (n > 0) Hacer
+		Escribir "Java es el mejor lenguaje de programación";
+		n <- n - 1;
+	FinMientras
+FinProceso

@@ -1,0 +1,27 @@
+Proceso Programa04
+	//Variables
+	Definir nota1, nota2, nota3, nota4, min, promedio Como Real;
+	//Lectura de datos
+	Escribir "Ingrese la primera nota:";
+	Leer nota1;
+	Escribir "Ingrese la segunda nota:";
+	Leer nota2;
+	Escribir "Ingrese la tercera nota:";
+	Leer nota3;
+	Escribir "Ingrese la cuarta nota:";
+	Leer nota4;
+	//Procesamiento
+	min <- nota1; 
+	Si nota2 < min Entonces 
+		min <- nota2;
+	FinSi
+	Si nota3 < min Entonces 
+		min <- nota3;
+	FinSi
+	Si nota4 < min Entonces 
+		min <- nota4;
+	FinSi
+	promedio <- (nota1 + nota2 + nota3 + nota4 - min)/3;
+	//Resultado
+	Escribir "La nota promedio es: ", promedio;
+FinProceso

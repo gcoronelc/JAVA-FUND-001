@@ -1,0 +1,13 @@
+Proceso Programa01
+	// Variables
+	Definir nota1, nota2, promedio Como Real;
+	// Lectura de datos
+	Escribir "Ingrese nota 1: ";
+	Leer nota1;
+	Escribir "Ingrese nota 2: ";
+	Leer nota2;
+	// Proceso
+	promedio <- (nota1 + nota2) / 2;
+	// Reporte o salida
+	Escribir "Promedio: ", promedio;
+FinProceso

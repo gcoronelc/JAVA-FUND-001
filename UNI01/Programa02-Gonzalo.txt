@@ -1,0 +1,13 @@
+Algoritmo programa02
+	//VARIABLES
+	Definir nota1,nota2,resultado Como Entero;
+	//LECTURA DE DATOS
+	Escribir "Ingrese primer numero: ";
+	Leer nota1;
+	Escribir "Ingrese segundo numero: ";
+	Leer nota2;
+	//PROCESO
+	resultado<-(nota1 + nota2);
+	//REPORTE DE SALIDA
+	Escribir "Resultado: ", resultado;
+FinAlgoritmo

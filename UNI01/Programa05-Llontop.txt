@@ -1,0 +1,15 @@
+Proceso Programa05
+	//Variables
+	Definir n, sum_quad  Como Entero;
+	//Lectura de datos
+	Escribir "Ingrese el valor de n:";
+	Leer n;
+	//Procesamiento
+	sum_quad <- 0;
+	Mientras n > 0 Hacer
+		sum_quad <- sum_quad + (n*n) ;
+		n <- n-1;
+	FinMientras
+	//Resultado
+	Escribir "La suma de los cuadrados de los n primeros números es: ", sum_quad;
+FinProceso
