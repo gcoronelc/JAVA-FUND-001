@@ -9,19 +9,17 @@ import java.util.Scanner;
  * @youtube www.youtube.com/c/DesarrollaSoftware
  * @facebook www.facebook.com/groups/desarrollasoftware/
  */
-public class Programa02 {
+public class Programa02_NoMeGusta {
 
     public static void main(String[] args) {
         
 			// Variables
-			String nombre;
-			int edad;
 			Scanner scanner = new Scanner(System.in);
 			// Lectura de datos
 			System.out.println("Ingrese nombre:");
-			nombre = scanner.nextLine();
+			String nombre = scanner.nextLine(); // Lectura de un dato alfanumerico
 			System.out.println("Ingrese edad:");
-			edad = scanner.nextInt();
+			int edad = scanner.nextInt();  // LEctura de un dato entero
 			// Reporte
 			System.out.println("Hola " + nombre);
 			System.out.println("Que joven que eres, edad " + edad + ".");
