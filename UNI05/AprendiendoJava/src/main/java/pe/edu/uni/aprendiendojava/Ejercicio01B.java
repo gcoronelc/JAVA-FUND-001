@@ -9,38 +9,41 @@ import java.util.Scanner;
  * @youtube www.youtube.com/c/DesarrollaSoftware
  * @facebook www.facebook.com/groups/desarrollasoftware/
  */
-public class Ejercicio01 {
+public class Ejercicio01B {
 
     public static void main(String[] args) {
 			
 			// Variables
-			double precio, descuento, importe, dctoAplicar;
+			double precioUnitario, descuentoUnitario, importe, descuento, total;
 			int cantidad;
 			Scanner scanner = new Scanner(System.in);
 			
 			// Lectura de datos
-			System.out.println("Precio: ");
-			precio = scanner.nextDouble();
-			System.out.println("Descuento: ");
-			descuento = scanner.nextDouble();
+			System.out.println("Precio Unitario: ");
+			precioUnitario = scanner.nextDouble();
+			System.out.println("Descuento Unitario: ");
+			descuentoUnitario = scanner.nextDouble();
 			System.out.println("Cantidad: ");
 			cantidad = scanner.nextInt();
 			
 			// Proceso
-			dctoAplicar = 0.0; // Punto de partida
+			importe = precioUnitario * cantidad;
+			descuento = 0.0;
 			if( cantidad >= 6 ){
-				dctoAplicar = descuento;
+				descuento = descuentoUnitario * cantidad;
 			}
-			importe = (precio - dctoAplicar) * cantidad;
+			total = importe - descuento;
 			
 			// Reporte o salida
 			System.out.println("\n\n");
 			System.out.println("REPORTE");
 			System.out.println("==========================");
-			System.out.println("Precio: " + precio);
-			System.out.println("Descuento x Unidad: " + dctoAplicar);
+			System.out.println("Precio x Inidad: " + precioUnitario);
+			System.out.println("Descuento x Unidad: " + descuentoUnitario);
 			System.out.println("Cantidad: " + cantidad);
 			System.out.println("Importe: " + importe);
+			System.out.println("Descuento: " + descuento);
+			System.out.println("Total: " + total);
         
     }
 
