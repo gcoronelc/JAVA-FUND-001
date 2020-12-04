@@ -23,7 +23,6 @@ public class Ejemplo06 {
 		// Reporte
 		System.out.println("n: " + n);
 		System.out.println("Factorial: " + f);
-		
 	}
 
 }
