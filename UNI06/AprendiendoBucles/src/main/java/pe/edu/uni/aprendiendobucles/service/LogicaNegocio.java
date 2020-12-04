@@ -1,5 +1,7 @@
 package pe.edu.uni.aprendiendobucles.service;
 
+import java.util.Random;
+
 /**
  * @author Eric Gustavo Coronel Castillo
  * @blog www.desarrollasoftware.com
@@ -15,6 +17,15 @@ public class LogicaNegocio {
 			f *= i;
 		}
 		return f;
+	}
+
+	public static int[] generaArreglo(int n) {
+		Random random = new Random();
+		int[] arreglo = new int[n];
+		for (int i = 0; i < arreglo.length; i++) {
+			arreglo[i] = random.nextInt(100) + 1;
+		}
+		return arreglo;
 	}
 
 }
